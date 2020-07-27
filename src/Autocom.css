@@ -1,0 +1,68 @@
+/* .Autocom {
+  width: 100%;
+  box-shadow: darkgrey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+  background-color: transparent;
+} */
+
+.Autocom {
+  width: 100%;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  outline: none;
+  background: black;
+}
+
+/* .Autocom ul {
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid gray;
+}
+
+.Autocom ul::before {
+  content: "";
+}
+
+.Autocom li {
+  padding: 10px 5px;
+  cursor: pointer;
+  transition: 1s;
+  display: block;
+  background: rgb(196, 187, 187);
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 1.2rem;
+  width: 100%;
+  border-radius: 2px;
+  color: black;
+}
+
+.Autocom li:hover {
+  text-decoration: underline;
+  background-color: rgb(241, 57, 24);
+  transform: scale(1.05);
+}
+ */
+.button {
+  width: 10%;
+  border: 2px solid gray;
+  box-shadow: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+  margin-top: 70px;
+  background-color: rgb(56, 177, 56);
+  border-radius: 10%;
+  float: right;
+}
+
+::placeholder {
+  color: red;
+}
